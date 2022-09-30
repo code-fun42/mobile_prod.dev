@@ -17,6 +17,7 @@ class StartDisplayLoad extends StatelessWidget {
     return const Scaffold(
       // body is the majority of the screen.
       body: Center(
+
         child: Text(
           '< TITLE />',
           style: TextStyle(
@@ -25,6 +26,7 @@ class StartDisplayLoad extends StatelessWidget {
               color: Colors.red
           ),
         ),
+
       ),
     );
   }
