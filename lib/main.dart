@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
-import 'src/startDisplay.dart';
+
+// импортируем виджеты
+import 'src/widgets/StartDisplay.dart';
+import 'src/widgets/ServicesDisplay.dart';
 
 void main() {
   runApp(
     const MaterialApp(
       title: "dev",
-      home: StartDisplayLoad(),
+      home: ServicesDisplay(),
     ),
   );
 }

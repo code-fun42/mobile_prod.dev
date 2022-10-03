@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-export 'startDisplay.dart';
+export 'StartDisplay.dart';
 
 class StartDisplayLoad extends StatelessWidget {
   const StartDisplayLoad({super.key});
